@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.MainPage" xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms">
+    <Grid x:Name="controlGrid"  Margin="10" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <FlexLayout Grid.Row="0" Grid.Column="0" Direction="Column"  AlignItems="Center" JustifyContent="Center" >
+            <Label Text="w4" FlexLayout.Grow=".5">
+            </Label>
+            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
+        </FlexLayout>
+        <FlexLayout Grid.Row="0" Grid.Column="1" Direction="Column" AlignItems="Center" JustifyContent="Center" >
+            <Label Text="w4" FlexLayout.Grow=".5">
+            </Label>
+            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
+        </FlexLayout>
+        <FlexLayout Grid.Row="0" Grid.Column="2" Direction="Column" AlignItems="Center" JustifyContent="Center" >
+            <Label Text="w4" FlexLayout.Grow=".5">
+            </Label>
+            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
+        </FlexLayout>
+        <FlexLayout Grid.Row="0" Grid.Column="3" Direction="Column" AlignItems="Center" JustifyContent="Center" >
+            <Label Text="w4" FlexLayout.Grow=".5">
+            </Label>
+            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
+        </FlexLayout>
+        <FlexLayout Grid.Row="1" Grid.Column="0" Direction="Column" AlignItems="Center" JustifyContent="Center" >
+            <Label Text="w4" FlexLayout.Grow=".5">
+            </Label>
+            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
+        </FlexLayout>
+        <FlexLayout Grid.Row="1" Grid.Column="1" Direction="Column" AlignItems="Center" JustifyContent="Center" >
+            <Label Text="w4" FlexLayout.Grow=".5">
+            </Label>
+            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
+        </FlexLayout>
+        <FlexLayout Grid.Row="1" Grid.Column="2" Direction="Column" AlignItems="Center" JustifyContent="Center" >
+            <Label Text="w4" FlexLayout.Grow=".5">
+            </Label>
+            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
+        </FlexLayout>
+        <FlexLayout Grid.Row="1" Grid.Column="3" Direction="Column" AlignItems="Center" JustifyContent="Center" >
+            <Label Text="w4" FlexLayout.Grow=".5">
+            </Label>
+            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
+        </FlexLayout>
+    </Grid>
+</ContentPage>
