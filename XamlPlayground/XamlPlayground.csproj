@@ -17,6 +17,6 @@
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.3.6" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\UserInterfaceBuilder\UserInterfaceBuilder\UserInterfaceBuilder.csproj" />
+    <ProjectReference Include="..\..\UserInterfaceBuilder\UserInterfaceBuilder\UserInterfaceBuilder.csproj" />
   </ItemGroup>
 </Project>
