@@ -1,55 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.MainPage" xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms">
-    <Grid x:Name="controlGrid"  Margin="10" >
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        <FlexLayout Grid.Row="0" Grid.Column="0" Direction="Column"  AlignItems="Center" JustifyContent="Center" >
-            <Label Text="w4" FlexLayout.Grow=".5">
-            </Label>
-            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
+<ContentPage  xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.MainPage" xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms">
+            <FlexLayout Direction="Column" AlignItems="Stretch" CompressedLayout.IsHeadless="true" >
+            <AbsoluteLayout FlexLayout.Grow="1.5">
+                <ffimageloadingsvg:SvgCachedImage Source="xxs" AbsoluteLayout.LayoutBounds=".05,.8,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
+                <Label Text="w" AbsoluteLayout.LayoutBounds=".2,.8,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
+                <ffimageloadingsvg:SvgCachedImage Source="xxs" AbsoluteLayout.LayoutBounds=".80,.8,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
+                <ffimageloadingsvg:SvgCachedImage Source="xxs" AbsoluteLayout.LayoutBounds=".95,.8,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
+            </AbsoluteLayout>
+            
+            <Frame FlexLayout.Grow=".01" OutlineColor="Silver" HasShadow="true" >  
+             </Frame> 
+            
+                <FlexLayout FlexLayout.Grow="10" Direction="Column">
+                 
+<FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" Direction="Row" AlignItems="Center" JustifyContent="Center">
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" AlignItems="Center" JustifyContent="Center">
+                        <ffimageloadingsvg:SvgCachedImage Source="md" FlexLayout.AlignSelf="Center" />
+                    </FlexLayout>
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="3" Direction="Column" AlignItems="Center" JustifyContent="Center">
+                        <Label Text="w" />
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                        <Label Text="w4">
+                        </Label>
+                        <Label Text="w2">
+                        </Label>
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                    </FlexLayout>
+                </FlexLayout>
+
+            <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" Direction="Row" AlignItems="Center" JustifyContent="Center">
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" AlignItems="Center" JustifyContent="Center">
+                        <ffimageloadingsvg:SvgCachedImage Source="md" FlexLayout.AlignSelf="Center" />
+                    </FlexLayout>
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="3" Direction="Column" AlignItems="Center" JustifyContent="Center">
+                        <Label Text="w" />
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                        <Label Text="w4">
+                        </Label>
+                        <Label Text="w2">
+                        </Label>
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                    </FlexLayout>
+                </FlexLayout>
+
+            <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" Direction="Row" AlignItems="Center" JustifyContent="Center">
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" AlignItems="Center" JustifyContent="Center">
+                        <ffimageloadingsvg:SvgCachedImage Source="md" FlexLayout.AlignSelf="Center" />
+                    </FlexLayout>
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="3" Direction="Column" AlignItems="Center" JustifyContent="Center">
+                        <Label Text="w" />
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                        <Label Text="w4">
+                        </Label>
+                        <Label Text="w2">
+                        </Label>
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                    </FlexLayout>
+                </FlexLayout>
+
+            <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" Direction="Row" AlignItems="Center" JustifyContent="Center">
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" AlignItems="Center" JustifyContent="Center">
+                        <ffimageloadingsvg:SvgCachedImage Source="md" FlexLayout.AlignSelf="Center" />
+                    </FlexLayout>
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="3" Direction="Column" AlignItems="Center" JustifyContent="Center">
+                        <Label Text="w" />
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                        <Label Text="w4">
+                        </Label>
+                        <Label Text="w2">
+                        </Label>
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                    </FlexLayout>
+                </FlexLayout>
+
+            <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" Direction="Row" AlignItems="Center" JustifyContent="Center">
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="1" AlignItems="Center" JustifyContent="Center">
+                        <ffimageloadingsvg:SvgCachedImage Source="md" FlexLayout.AlignSelf="Center" />
+                    </FlexLayout>
+                    <FlexLayout CompressedLayout.IsHeadless="true" FlexLayout.Grow="3" Direction="Column" AlignItems="Center" JustifyContent="Center">
+                        <Label Text="w" />
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                        <Label Text="w4">
+                        </Label>
+                        <Label Text="w2">
+                        </Label>
+                        <Label Text="w3">
+                        </Label>
+                        <Label Text="w5">
+                        </Label>
+                    </FlexLayout>
+                </FlexLayout>
+
+
+                    
+                    </FlexLayout>
+
+
+           <Frame FlexLayout.Grow=".01" OutlineColor="Silver" HasShadow="true" >  
+             </Frame>
+            
+            <FlexLayout FlexLayout.Grow="1.5" Direction="Row" AlignItems="Center" JustifyContent="Center" >
+
+                <FlexLayout FlexLayout.Grow="1" Direction="Column" AlignItems="Center" JustifyContent="Center">
+                    <ffimageloadingsvg:SvgCachedImage Source="xxs" />
+                    <Label Text="w" />
+                </FlexLayout>
+                <FlexLayout FlexLayout.Grow="1" Direction="Column" AlignItems="Center" JustifyContent="Center">
+                    <ffimageloadingsvg:SvgCachedImage Source="xxs" />
+                    <Label Text="w" />
+                </FlexLayout>
+                <FlexLayout FlexLayout.Grow="1" Direction="Column" AlignItems="Center" JustifyContent="Center">
+                    <ffimageloadingsvg:SvgCachedImage Source="xxs" />
+                    <Label Text="w" />
+                </FlexLayout>
+            </FlexLayout>
         </FlexLayout>
-        <FlexLayout Grid.Row="0" Grid.Column="1" Direction="Column" AlignItems="Center" JustifyContent="Center" >
-            <Label Text="w4" FlexLayout.Grow=".5">
-            </Label>
-            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
-        </FlexLayout>
-        <FlexLayout Grid.Row="0" Grid.Column="2" Direction="Column" AlignItems="Center" JustifyContent="Center" >
-            <Label Text="w4" FlexLayout.Grow=".5">
-            </Label>
-            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
-        </FlexLayout>
-        <FlexLayout Grid.Row="0" Grid.Column="3" Direction="Column" AlignItems="Center" JustifyContent="Center" >
-            <Label Text="w4" FlexLayout.Grow=".5">
-            </Label>
-            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
-        </FlexLayout>
-        <FlexLayout Grid.Row="1" Grid.Column="0" Direction="Column" AlignItems="Center" JustifyContent="Center" >
-            <Label Text="w4" FlexLayout.Grow=".5">
-            </Label>
-            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
-        </FlexLayout>
-        <FlexLayout Grid.Row="1" Grid.Column="1" Direction="Column" AlignItems="Center" JustifyContent="Center" >
-            <Label Text="w4" FlexLayout.Grow=".5">
-            </Label>
-            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
-        </FlexLayout>
-        <FlexLayout Grid.Row="1" Grid.Column="2" Direction="Column" AlignItems="Center" JustifyContent="Center" >
-            <Label Text="w4" FlexLayout.Grow=".5">
-            </Label>
-            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
-        </FlexLayout>
-        <FlexLayout Grid.Row="1" Grid.Column="3" Direction="Column" AlignItems="Center" JustifyContent="Center" >
-            <Label Text="w4" FlexLayout.Grow=".5">
-            </Label>
-            <ffimageloadingsvg:SvgCachedImage Source="xxxl" FlexLayout.Grow="9" />
-        </FlexLayout>
-    </Grid>
-</ContentPage>
+
+ </ContentPage>

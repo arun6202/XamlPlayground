@@ -49,10 +49,9 @@
       <CustomCommands>
         <Command>
           <type>AfterBuild</type>
-          <command>msbuild /t:SignAndroidPackage  /p:Configuration=Release /p:AndroidCreatePackagePerAbi=true /p:AndroidSupportedAbis=x86   /Users/arunbalakrishnan/XamlPlayground/XamlPlayground.Android/XamlPlayground.Android.csproj
+          <command>msbuild /t:SignAndroidPackage  /p:Configuration=Release /p:AndroidCreatePackagePerAbi=true /p:AndroidSupportedAbis=x86   /Users/arun/XamlPlayground/XamlPlayground.Android/XamlPlayground.Android.csproj
 </command>
           <workingdir></workingdir>
-          <externalConsole>True</externalConsole>
         </Command>
       </CustomCommands>
     </CustomCommands>
@@ -64,7 +63,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="XamlPlayground">
-      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+      <HintPath>bin\Release\XamlPlayground.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
