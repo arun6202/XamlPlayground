@@ -9,7 +9,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+            MainPage = new Playground();
 		}
 
 		protected override void OnStart ()
