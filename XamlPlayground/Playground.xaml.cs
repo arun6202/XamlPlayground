@@ -8,6 +8,8 @@ using System.Xml.Serialization;
 using Xamarin.Forms;
 using XamarinFormsStarterKit.UserInterfaceBuilder;
 using XamarinFormsStarterKit.UserInterfaceBuilder.Preserver;
+using XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.DependencyService;
+using static Xamarin.Forms.DependencyService;
 
 namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 {
@@ -16,34 +18,14 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
         public Playground()
 		{
 			InitializeComponent();
-            ComponentBuilder.GenerateUIAttributes( new ComponentBuilderOptions{Content = (Layout)Content } );
 
- 
-            var preserveUIAttributes = ComponentBuilder.PreserveUIAttributes;
+            ComponentBuilder.GenerateUIAttributes( new ComponentBuilderOptions{Content = Content } );
 
+			var ISaveAndLoadUIAttributesService = Get<ISaveAndLoadUIAttributes>();
 
-             preserveUIAttributes = new Preserve
-            {
-                Image = new List<Preserver.Image> { new Preserver.Image { Height = 5.6 } }
-            };
-
-            var mySerializer = new XmlSerializer(typeof(Preserve));
-
-            mySerializer.Serialize(preserveUIAttributes,);
-
-
-
-            XmlSerializer xsSubmit = new XmlSerializer(typeof(Preserve));
-            var xml = "";
-
-            using (var sww = new System.IO.StringWriter())
-            {
-                using (XmlWriter writer = XmlWriter.Create(sww))
-                {
-                    xsSubmit.Serialize(writer, preserveUIAttributes);
-                    xml = sww.ToString(); // Your XML
-                }
-            }
+			//ISaveAndLoadUIAttributesService.LoadXMLAsync("XamlPlayground").Wait();
+			ISaveAndLoadUIAttributesService.LoadXMLAsync("XamlPlayground");
+  
 		}
 	}
 }
