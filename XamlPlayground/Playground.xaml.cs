@@ -19,31 +19,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
             ComponentBuilder.GenerateUIAttributes( new ComponentBuilderOptions{Content = (Layout)Content } );
 
  
-            var preserveUIAttributes = ComponentBuilder.PreserveUIAttributes;
-
-
-             preserveUIAttributes = new Preserve
-            {
-                Image = new List<Preserver.Image> { new Preserver.Image { Height = 5.6 } }
-            };
-
-            var mySerializer = new XmlSerializer(typeof(Preserve));
-
-            mySerializer.Serialize(preserveUIAttributes,);
-
-
-
-            XmlSerializer xsSubmit = new XmlSerializer(typeof(Preserve));
-            var xml = "";
-
-            using (var sww = new System.IO.StringWriter())
-            {
-                using (XmlWriter writer = XmlWriter.Create(sww))
-                {
-                    xsSubmit.Serialize(writer, preserveUIAttributes);
-                    xml = sww.ToString(); // Your XML
-                }
-            }
+             
 		}
 	}
 }
