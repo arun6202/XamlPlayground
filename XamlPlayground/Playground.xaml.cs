@@ -16,7 +16,8 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
         public Playground()
 		{
 			InitializeComponent();
-            ComponentBuilder.GenerateUIAttributes( new ComponentBuilderOptions{Content = (Layout)Content } );
+
+            ComponentBuilder.Init( new ComponentBuilderOptions{Content = Content } );
 
  
              
