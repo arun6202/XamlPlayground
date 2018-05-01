@@ -167,5 +167,9 @@
       <Project>{4AA72983-13E8-40C9-8CA2-9F1A4BF5E89E}</Project>
       <Name>XamlPlayground</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\UserInterfaceBuilder\UserInterfaceBuilder\UserInterfaceBuilder.csproj">
+      <Project>{987D0DAF-D577-4D55-A109-FEC8D76CBD72}</Project>
+      <Name>UserInterfaceBuilder</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

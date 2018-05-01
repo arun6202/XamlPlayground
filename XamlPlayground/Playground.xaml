@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground" xmlns:svg="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground"
+             xmlns:svg="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements"
+             >
     <StackLayout>
         <Label Text="w4">
         </Label>
-        <svg:SVGImage Source="xxxl" />
+        <svg:SVGImage Source="xxxl"  WidthRequest="300" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="Center" />
     </StackLayout>
 </ContentPage>

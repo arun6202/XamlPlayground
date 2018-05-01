@@ -26,8 +26,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CustomControls\" />
-    <Folder Include="TempControls\" />
-    <Folder Include="UserControls\" />
+    <Folder Include="CustomElements\" />
+    <Folder Include="TempElements\" />
+    <Folder Include="UserElements\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Cat.svg" />
   </ItemGroup>
 </Project>
