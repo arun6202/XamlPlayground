@@ -6,8 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using FFImageLoading.Forms.Droid;
-
+ 
 namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Droid.Droid
 {
     [Activity(Label = "XamlPlayground", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -21,8 +20,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Droid.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            CachedImageRenderer.Init(true); 
-
+ 
             LoadApplication(new App());
         }
     }

@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using FFImageLoading.Forms.Touch;
-using Foundation;
+ using Foundation;
 using UIKit;
 
 namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.iOS
@@ -23,8 +22,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            CachedImageRenderer.Init(); 
-
+ 
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
