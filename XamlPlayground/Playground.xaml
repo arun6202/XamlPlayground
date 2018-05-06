@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground" xmlns:svg="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder">
-    <StackLayout>
-        <Label Text="w4">
-        </Label>
-        <svg:SVGImage Source="xl" >
-        </svg:SVGImage>
-    </StackLayout>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
+    <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Always" VerticalOptions="StartAndExpand">
+        <StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
+            <Label Text="w4">
+            </Label>
+            <Image Source="xl">
+            </Image>
+            <Label Text="w4">
+            </Label>
+            <Image Source="xxl">
+            </Image>
+            <Label Text="w4">
+            </Label>
+            <Image Source="xxxl">
+            </Image>
+            <Label Text="w4">
+            </Label>
+            <Image Source="xs">
+            </Image>
+            <Label Text="w4">
+            </Label>
+            <Image Source="xxxs">
+            </Image>
+            <Label Text="w4">
+            </Label>
+            <Image Source="md">
+            </Image>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
