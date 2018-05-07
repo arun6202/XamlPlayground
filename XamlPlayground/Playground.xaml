@@ -4,7 +4,7 @@
         <StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
             <Label Text="w4">
             </Label>
-            <Image Source="xl">
+            <Image Source="xs">
             </Image>
             <Label Text="w4">
             </Label>
