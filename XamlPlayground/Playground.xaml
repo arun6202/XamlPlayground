@@ -1,84 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns:svg="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
-    <StackLayout>
-        <StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
+    <StackLayout Padding="100" Orientation="Vertical">
+        <!--<Label Text="w">
             </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
+            <Image Source="xxxl">
+            </Image>-->
+            <svg:SVGImage Source="xxxl" >
             </svg:SVGImage>
-        </StackLayout>
-        <StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout><StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout><StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout><StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout><StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout><StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout><StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout><StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout><StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout><StackLayout Padding="10" Spacing="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
-            <Label Text="l9">
-            </Label>
-            <Image Source="xxl">
-            </Image>
-            <svg:SVGImage Source="xxl" >
-            </svg:SVGImage>
-        </StackLayout>
+  
+        
     </StackLayout>
 </ContentPage>
