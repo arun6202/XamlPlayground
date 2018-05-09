@@ -11,17 +11,16 @@ using XamarinFormsStarterKit.UserInterfaceBuilder.Preserver;
 
 namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 {
-    public partial class Playground : ContentPage
+	public partial class Playground : ContentPage
 	{
-        public Playground()
+		public Playground()
 		{
 			InitializeComponent();
 
-            ComponentBuilder.Init( new ComponentBuilderOptions{Content = Content } );
+			ComponentBuilder.Init(new ComponentBuilderOptions { Content = Content, PreserveSession = true });
 
- 
-             
+
+
 		}
 	}
 }
- 
