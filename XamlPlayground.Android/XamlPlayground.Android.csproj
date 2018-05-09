@@ -23,6 +23,7 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidCreatePackagePerAbi>true</AndroidCreatePackagePerAbi>
     <AndroidSupportedAbis>x86</AndroidSupportedAbis>
+    <EnableProguard>true</EnableProguard>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,7 +34,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
-    <EnableProguard>true</EnableProguard>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -49,12 +49,12 @@
       <CustomCommands>
         <Command>
           <type>AfterBuild</type>
-          <command>msbuild /t:SignAndroidPackage  /p:Configuration=Release /p:AndroidCreatePackagePerAbi=true /p:AndroidSupportedAbis=x86   /Users/arunbalakrishnan/XamlPlayground/XamlPlayground.Android/XamlPlayground.Android.csproj
-</command>
+          <command>msbuild /t:SignAndroidPackage  /p:Configuration=Release /p:AndroidCreatePackagePerAbi=true /p:AndroidSupportedAbis=x86  ${SolutionDir}/XamlPlayground.Android/XamlPlayground.Android.csproj</command>
           <workingdir></workingdir>
         </Command>
       </CustomCommands>
     </CustomCommands>
+<AndroidEnableMultiDex>true</AndroidEnableMultiDex>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -472,6 +472,30 @@
     </Reference>
     <Reference Include="UserInterfaceBuilder">
       <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
     </Reference>
     <Reference Include="XamlPlayground">
       <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
