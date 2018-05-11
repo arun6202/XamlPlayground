@@ -9,7 +9,7 @@
         </Label>
          <Label Text="l4">
         </Label>-->
-        <svg:SVGImage Source="s">
+        <svg:SVGImage Source="xxxl" GrowPercent="35" Shape="Rectangle">
         </svg:SVGImage>
     </StackLayout>
 </ContentPage>
