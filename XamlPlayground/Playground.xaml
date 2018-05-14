@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns:svg="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
-    <StackLayout  Orientation="Vertical">
-       <!-- <Label Text="w">
-        </Label>
-         <Label Text="w5">
-        </Label>
-         <Label Text="p4">
-        </Label>
-         <Label Text="l4">
-        </Label>-->
-        <svg:SVGImage Source="xxxl" GrowPercent="35" Shape="Rectangle">
-        </svg:SVGImage>
-    </StackLayout>
+<ContentPage xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
+    <elem:RepeaterView RepeatCount="6">
+        <elem:RepeaterView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <elem:SVGImage Source="xxxl" GrowPercent="35" Shape="Rectangle">
+                    </elem:SVGImage>
+                </ViewCell>
+            </DataTemplate>
+        </elem:RepeaterView.ItemTemplate>
+    </elem:RepeaterView>
 </ContentPage>
