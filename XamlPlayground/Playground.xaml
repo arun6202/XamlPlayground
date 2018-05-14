@@ -4,7 +4,7 @@
         <elem:RepeaterView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <elem:SVGImage Source="xxxl" GrowPercent="35" Shape="Rectangle">
+                 <elem:SVGImage Source="xxxl" GrowPercent="35" Shape="Rectangle">
                     </elem:SVGImage>
                 </ViewCell>
             </DataTemplate>
