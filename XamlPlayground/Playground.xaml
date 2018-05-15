@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
-    <elem:RepeaterView RepeatCount="6">
-        <elem:RepeaterView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                 <elem:SVGImage Source="xxxl" GrowPercent="35" Shape="Rectangle">
-                    </elem:SVGImage>
-                </ViewCell>
-            </DataTemplate>
-        </elem:RepeaterView.ItemTemplate>
-    </elem:RepeaterView>
+    <elem:RepeaterContentView RepeatCount="6">
+        <elem:SVGImage Source="xxxl" GrowPercent="35" Shape="Rectangle">
+        </elem:SVGImage>
+    </elem:RepeaterContentView>
 </ContentPage>
