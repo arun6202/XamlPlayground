@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
-    <FlexLayout Direction="Column" Padding="0,30,0,0">
-        <ScrollView Orientation="Vertical" VerticalOptions="Fill">
-            <elem:RepeaterView RepeatCount="4">
+    <FlexLayout Direction="Column" Margin="5,30,5,5">
+        <ScrollView VerticalOptions="StartAndExpand">
+            <elem:RepeaterView RepeatCount="9">
                 <DataTemplate>
                     <ViewCell>
-                        <elem:SVGImage Source="xxxl" />
+                        <FlexLayout Direction="Row">
+                            <elem:SVGImage Margin="5" Source="m" Shape="Rectangle" />
+                            <elem:SVGImage Margin="5" Source="xxl" Shape="Rectangle" />
+                        </FlexLayout>
                     </ViewCell>
                 </DataTemplate>
             </elem:RepeaterView>

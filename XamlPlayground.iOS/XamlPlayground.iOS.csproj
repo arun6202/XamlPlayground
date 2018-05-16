@@ -1115,6 +1115,66 @@
     <Reference Include="XamlPlayground">
       <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
     </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="SkiaSharp.Views.Forms">
