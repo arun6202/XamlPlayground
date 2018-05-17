@@ -7,9 +7,7 @@
                     <ViewCell>
                         <FlexLayout Direction="Column">
                             <elem:SVGImage Margin="10" Source="xxxl" GrowPercent="-20" Shape="Rectangle10" />
-                            <elem:SVGImage Margin="10" Source="xxxl" GrowPercent="20" Shape="Rectangle20" />
-                            <elem:SVGImage Margin="10" Source="xxxl" GrowPercent="-20" Shape="Rectangle30" />
-                            <elem:SVGImage Margin="10" Source="xxxl" GrowPercent="-20" Shape="Rectangle40" />
+                            
                          </FlexLayout>
                     </ViewCell>
                 </DataTemplate>
