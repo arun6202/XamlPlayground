@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
-    <FlexLayout Direction="Column" Margin="5,30,5,5">
-        <ScrollView VerticalOptions="StartAndExpand">
-            <elem:RepeaterView RepeatCount="10">
-                <DataTemplate>
-                    <ViewCell>
-                        <FlexLayout Direction="Row">
-                            <elem:SVGImage Margin="10" Source="xl" Shape="Rectangle10" />
-                            <elem:SVGImage Margin="10" Source="xl" Shape="Rectangle10" />
-                        </FlexLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </elem:RepeaterView>
-        </ScrollView>
-    </FlexLayout>
+<ContentPage BackgroundColor="Lime" xmlns:views="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms" xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Spacing="50" Margin="5" BackgroundColor="Fuchsia">
+            <BoxView Color="Purple" Margin="5,30,5,5">
+            </BoxView>
+            <BoxView Color="Green" HeightRequest="200" WidthRequest="500">
+            </BoxView>
+            <views:SKCanvasView x:Name="skcv" HeightRequest="200" WidthRequest="500" />
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
