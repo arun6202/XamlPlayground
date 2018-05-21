@@ -6,9 +6,10 @@
                 <DataTemplate>
                     <ViewCell>
                         <FlexLayout Direction="Column">
-
                             <elem:SVGImage Margin="10" Source="l" Shape="Circle" />
-
+                            <elem:SVGImage Margin="10" Source="l" Shape="Square" />
+                         <elem:SVGImage Margin="10" Source="l" Shape="Rectangle20" />
+                        <elem:SVGImage Margin="10" Source="l" Shape="RoundedRectangle40" />
                         </FlexLayout>
                     </ViewCell>
                 </DataTemplate>

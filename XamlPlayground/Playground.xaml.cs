@@ -13,7 +13,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 			{
 				Content = Content,
 				PreserveSession = true,
-				SuppressAllBackGroundColor = true
+				SuppressAllBackGroundColor = false
 
 			});
 
