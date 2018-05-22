@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
-<!--    <ScrollView Orientation="Vertical" VerticalOptions="StartAndExpand">
--->        <FlexLayout Direction="Column" Margin="5,30,5,5">
-            <elem:RepeaterView RepeatCount="1">
-                <DataTemplate>
-                    <ViewCell>
-                        <FlexLayout Direction="Column">
-                            <elem:SVGImage Margin="10" Source="l" Shape="Circle" />
-                            <elem:SVGImage Margin="10" Source="l" Shape="Square" />
-                         <elem:SVGImage Margin="10" Source="l" Shape="Rectangle20" />
+    <FlexLayout Direction="Column" Margin="5,30,5,5">
+        <elem:RepeaterView RepeatCount="1">
+            <DataTemplate>
+                <ViewCell>
+                    <FlexLayout Direction="Column">
+                        <Label Text="w3">
+                        </Label>
                         <elem:SVGImage Margin="10" Source="l" Shape="RoundedRectangle40" />
-                        </FlexLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </elem:RepeaterView>
-        </FlexLayout>
-<!--    </ScrollView>-->
+                        <Image Source="l">
+                        </Image>
+                    </FlexLayout>
+                </ViewCell>
+            </DataTemplate>
+        </elem:RepeaterView>
+    </FlexLayout>
 </ContentPage>
