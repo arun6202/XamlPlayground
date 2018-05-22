@@ -7,9 +7,9 @@
                     <FlexLayout Direction="Column">
                         <Label Text="w3">
                         </Label>
-                        <elem:SVGImage Margin="10" Source="l" Shape="RoundedRectangle40" />
-                        <Image Source="l">
-                        </Image>
+                       <elem:SVGImage Margin="10" Source="l" Shape="RoundedRectangle40" />
+                       <!--  <Image Source="l">
+                        </Image>-->
                     </FlexLayout>
                 </ViewCell>
             </DataTemplate>
