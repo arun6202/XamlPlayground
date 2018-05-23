@@ -41,7 +41,7 @@
             </elem:BogusGenerator>
             <elem:BogusGenerator x:Key="CountryCode" x:FactoryMethod="CountryCode">
                 <x:Arguments>
-                    <x:Bogus.DataSets.Iso3166Format>Alpha2</x:Bogus.DataSets.Iso3166Format>
+                    <x:String>Alpha2</x:String>
                 </x:Arguments>
             </elem:BogusGenerator>
             <elem:BogusGenerator x:Key="State" x:FactoryMethod="State">
@@ -205,8 +205,8 @@
             </elem:BogusGenerator>
             <elem:BogusGenerator x:Key="CreditCardNumber" x:FactoryMethod="CreditCardNumber">
                 <x:Arguments>
-                    <x:Bogus.DataSets.CardType>
-                    </x:Bogus.DataSets.CardType>
+                    <x:String>
+                    </x:String>
                 </x:Arguments>
             </elem:BogusGenerator>
             <elem:BogusGenerator x:Key="CreditCardCvv" x:FactoryMethod="CreditCardCvv">
@@ -497,26 +497,26 @@
             </elem:BogusGenerator>
             <elem:BogusGenerator x:Key="FirstName" x:FactoryMethod="FirstName">
                 <x:Arguments>
-                    <x:Gender>
-                    </x:Gender>
+                    <x:String>
+                    </x:String>
                 </x:Arguments>
             </elem:BogusGenerator>
             <elem:BogusGenerator x:Key="LastName" x:FactoryMethod="LastName">
                 <x:Arguments>
-                    <x:Gender>
-                    </x:Gender>
+                    <x:String>
+                    </x:String>
                 </x:Arguments>
             </elem:BogusGenerator>
             <elem:BogusGenerator x:Key="FullName" x:FactoryMethod="FullName">
                 <x:Arguments>
-                    <x:Gender>
-                    </x:Gender>
+                    <x:String>
+                    </x:String>
                 </x:Arguments>
             </elem:BogusGenerator>
             <elem:BogusGenerator x:Key="Prefix" x:FactoryMethod="Prefix">
                 <x:Arguments>
-                    <x:Gender>
-                    </x:Gender>
+                    <x:String>
+                    </x:String>
                 </x:Arguments>
             </elem:BogusGenerator>
             <elem:BogusGenerator x:Key="Suffix" x:FactoryMethod="Suffix">

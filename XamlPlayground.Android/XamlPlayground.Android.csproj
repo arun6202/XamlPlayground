@@ -2450,6 +2450,12 @@
     <Reference Include="UserInterfaceBuilder">
       <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
     </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="UserInterfaceBuilder">
+      <HintPath>..\..\UserInterfaceBuilder\UserInterfaceBuilder\bin\Debug\netstandard2.0\UserInterfaceBuilder.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design">
