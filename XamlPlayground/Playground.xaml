@@ -5,10 +5,10 @@
             <DataTemplate>
                 <ViewCell>
                     <FlexLayout Direction="Column">
-                        <!-- <Label Text="w3">
-                        </Label>-->
-                        <elem:SVGImage Margin="10" Source="l" Shape="RoundedRectangle40" />
-                        <!--                         <Image Source="l"></Image> 
+                         <Label Text="{StaticResource City}" >
+                        </Label>
+<!--                        <elem:SVGImage Margin="10" Source="l" Shape="RoundedRectangle40" />
+-->                        <!--                         <Image Source="l"></Image> 
 -->
                     </FlexLayout>
                 </ViewCell>
