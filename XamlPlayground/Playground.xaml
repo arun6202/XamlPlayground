@@ -5,8 +5,11 @@
             <DataTemplate>
                 <ViewCell>
                     <FlexLayout Direction="Column">
-                         <Label Text="{StaticResource City}" >
+                         <Label Text="w5" >
                         </Label>
+
+                        <Button Clicked="Handle_Clicked" Text="Toast"></Button>
+                        
 <!--                        <elem:SVGImage Margin="10" Source="l" Shape="RoundedRectangle40" />
 -->                        <!--                         <Image Source="l"></Image> 
 -->

@@ -97,5 +97,13 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.UWP
             //TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+		protected override void OnActivated(IActivatedEventArgs args)
+        {
+            base.OnActivated(args);
+
+            if (args is ToastNotificationActivatedEventArgs toastArgs)
+                Xamarin.Forms.DependencyService.Get<IToastNotificator>()?.SystemEvent(toastArgs);
+        }
     }
 }
