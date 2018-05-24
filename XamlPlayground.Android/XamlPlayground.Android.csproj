@@ -2537,6 +2537,18 @@
     <Reference Include="XamlPlayground">
       <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
     </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design">
@@ -2574,6 +2586,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Plugin\Toasts\ToastNotification.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -2604,6 +2617,8 @@
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
     <Folder Include="Resources\drawable\" />
+    <Folder Include="Plugin\" />
+    <Folder Include="Plugin\Toasts\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamlPlayground\XamlPlayground.csproj">

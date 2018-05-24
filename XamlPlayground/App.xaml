@@ -2,8 +2,8 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.App" xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.Helpers;assembly=UserInterfaceBuilder" xmlns:bogus="clr-namespace:Bogus.DataSets;assembly=Bogus">
     <Application.Resources>
         <ResourceDictionary>
-        <elem:BogusGenerator x:Key="County" x:FactoryMethod="County">
-            </elem:BogusGenerator>
+        <!--<elem:BogusGenerator x:Key="County" x:FactoryMethod="County">
+            </elem:BogusGenerator>-->
 
             <!-- <elem:BogusGenerator x:Key="Parse" x:FactoryMethod="Parse">
                 <x:Arguments>
