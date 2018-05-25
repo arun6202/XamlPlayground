@@ -2,10 +2,13 @@
 <ContentPage xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
     <FlexLayout AlignItems="Stretch" Direction="Column">
         <FlexLayout FlexLayout.Grow="1" Direction="Row" AlignContent="Start">
-            <BoxView Color="Red" Margin="15" FlexLayout.AlignSelf="Center" HeightRequest="23" />
+<Label Text="w5"></Label>
         </FlexLayout>
         <FlexLayout FlexLayout.Grow="2" Direction="Column" AlignContent="Stretch">
-            <BoxView Margin="15" FlexLayout.AlignSelf="Center" HeightRequest="44" />
+        <Label Text="w5"></Label>
+            <Label Text="w5"></Label>
+            <Label Text="w6"></Label>
+            <Label Text="w9"></Label>
         </FlexLayout>
         <FlexLayout FlexLayout.Grow="1" Direction="Column" AlignContent="Stretch">
 <Image Source="m" ></Image>
