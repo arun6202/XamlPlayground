@@ -1,4 +1,5 @@
-﻿using Plugin.Toasts;
+﻿using System;
+using Acr.UserDialogs;
 using Xamarin.Forms;
 
 namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
@@ -6,9 +7,8 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 	public partial class Playground : ContentPage
 	{
 		void Handle_Clicked(object sender, System.EventArgs e)
-		{
-             
-
+		{             
+            
  		}
          
 		public Playground()
@@ -19,7 +19,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 			{
 				Content = Content,
 				PreserveSession = false,
-				SuppressAllBackGroundColor = true
+				SuppressAllBackGroundColor = false
 
 			});
 

@@ -8,14 +8,18 @@ using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
 using Plugin.Toasts;
+using Acr.UserDialogs;
 
 namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Droid.Droid
 {
     [Activity(Label = "XamlPlayground", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+		internal static MainActivity Instance { get; private set; }
+
         protected override void OnCreate(Bundle bundle)
         {
+			Instance = this;
             //TabLayoutResource = Resource.Layout.Tabbar;
             //ToolbarResource = Resource.Layout.Toolbar;
 
@@ -23,9 +27,8 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Droid.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
 
-			DependencyService.Register<ToastNotification>();
-            ToastNotification.Init(this, new PlatformOptions() { SmallIconDrawable = Android.Resource.Drawable.IcDialogInfo });
- 
+			UserDialogs.Init(() => Instance);
+
             LoadApplication(new App());
         }
     }

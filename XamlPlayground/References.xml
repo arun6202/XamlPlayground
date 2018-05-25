@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
+    <FlexLayout Direction="Column" Margin="5,30,5,5">
+        <elem:RepeaterView RepeatCount="1">
+            <DataTemplate>
+                <ViewCell>
+                    <FlexLayout Direction="Column">
+                         <Label Text="w5" >
+                        </Label>
+
+                        <Button Clicked="Handle_Clicked" Text="Toast"></Button>
+                        
+<!--                        <elem:SVGImage Margin="10" Source="l" Shape="RoundedRectangle40" />
+-->                        <!--                         <Image Source="l"></Image> 
+-->
+                    </FlexLayout>
+                </ViewCell>
+            </DataTemplate>
+        </elem:RepeaterView>
+    </FlexLayout>
+</ContentPage>
