@@ -27,6 +27,8 @@
     <Folder Include="CustomElements\" />
     <Folder Include="TempElements\" />
     <Folder Include="UserElements\" />
+    <Folder Include="Styles\" />
+    <Folder Include="References\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Cat.svg" />

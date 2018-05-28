@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.Helpers;assembly=UserInterfaceBuilder">
+    <elem:BogusGenerator x:Key="County" x:FactoryMethod="County">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="City" x:FactoryMethod="City">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="CityPrefix" x:FactoryMethod="CityPrefix">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="CitySuffix" x:FactoryMethod="CitySuffix">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="StreetName" x:FactoryMethod="StreetName">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="BuildingNumber" x:FactoryMethod="BuildingNumber">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="StreetSuffix" x:FactoryMethod="StreetSuffix">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="SecondaryAddress" x:FactoryMethod="SecondaryAddress">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="FullAddress" x:FactoryMethod="FullAddress">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="State" x:FactoryMethod="State">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="StateAbbr" x:FactoryMethod="StateAbbr">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="ProductName" x:FactoryMethod="ProductName">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Color" x:FactoryMethod="Color">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Product" x:FactoryMethod="Product">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="ProductAdjective" x:FactoryMethod="ProductAdjective">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="ProductMaterial" x:FactoryMethod="ProductMaterial">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="CompanySuffix" x:FactoryMethod="CompanySuffix">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="CatchPhrase" x:FactoryMethod="CatchPhrase">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Bs" x:FactoryMethod="Bs">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Column" x:FactoryMethod="Column">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Type" x:FactoryMethod="Type">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Collation" x:FactoryMethod="Collation">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Engine" x:FactoryMethod="Engine">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="CreditCardNumber" x:FactoryMethod="CreditCardNumber">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="CreditCardCvv" x:FactoryMethod="CreditCardCvv">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="BitcoinAddress" x:FactoryMethod="BitcoinAddress">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="EthereumAddress" x:FactoryMethod="EthereumAddress">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="RoutingNumber" x:FactoryMethod="RoutingNumber">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Bic" x:FactoryMethod="Bic">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Abbreviation" x:FactoryMethod="Abbreviation">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Adjective" x:FactoryMethod="Adjective">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Noun" x:FactoryMethod="Noun">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Verb" x:FactoryMethod="Verb">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="IngVerb" x:FactoryMethod="IngVerb">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Phrase" x:FactoryMethod="Phrase">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Avatar" x:FactoryMethod="Avatar">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="DomainName" x:FactoryMethod="DomainName">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="DomainWord" x:FactoryMethod="DomainWord">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="DomainSuffix" x:FactoryMethod="DomainSuffix">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Ip" x:FactoryMethod="Ip">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Ipv6" x:FactoryMethod="Ipv6">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="UserAgent" x:FactoryMethod="UserAgent">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Protocol" x:FactoryMethod="Protocol">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Url" x:FactoryMethod="Url">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Word" x:FactoryMethod="Word">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Text" x:FactoryMethod="Text">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Suffix" x:FactoryMethod="Suffix">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="JobTitle" x:FactoryMethod="JobTitle">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="JobDescriptor" x:FactoryMethod="JobDescriptor">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="JobArea" x:FactoryMethod="JobArea">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="JobType" x:FactoryMethod="JobType">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="DirectoryPath" x:FactoryMethod="DirectoryPath">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="FilePath" x:FactoryMethod="FilePath">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="MimeType" x:FactoryMethod="MimeType">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="CommonFileType" x:FactoryMethod="CommonFileType">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="CommonFileExt" x:FactoryMethod="CommonFileExt">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="FileType" x:FactoryMethod="FileType">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Semver" x:FactoryMethod="Semver">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Version" x:FactoryMethod="Version">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="Exception" x:FactoryMethod="Exception">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="AndroidId" x:FactoryMethod="AndroidId">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="ApplePushToken" x:FactoryMethod="ApplePushToken">
+    </elem:BogusGenerator>
+    <elem:BogusGenerator x:Key="BlackBerryPin" x:FactoryMethod="BlackBerryPin">
+    </elem:BogusGenerator>
+</ResourceDictionary>

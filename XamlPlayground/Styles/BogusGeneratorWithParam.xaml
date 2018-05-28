@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:converters="clr-namespace:ConferenceVision.Converters" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.Helpers;assembly=UserInterfaceBuilder">
+<!--
+             <elem:BogusGenerator x:Key="ZipCode" x:FactoryMethod="ZipCode">
+                <x:Arguments>
+                    <x:String>
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+              <elem:BogusGenerator x:Key="StreetAddress" x:FactoryMethod="StreetAddress">
+                <x:Arguments>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+             <elem:BogusGenerator x:Key="CountryCode" x:FactoryMethod="CountryCode">
+                <x:Arguments>
+                    <x:String>Alpha2</x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Latitude" x:FactoryMethod="Latitude">
+                <x:Arguments>
+                    <x:Double>-90</x:Double>
+                    <x:Double>90</x:Double>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Longitude" x:FactoryMethod="Longitude">
+                <x:Arguments>
+                    <x:Double>-180</x:Double>
+                    <x:Double>180</x:Double>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Direction" x:FactoryMethod="Direction">
+                <x:Arguments>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="CardinalDirection" x:FactoryMethod="CardinalDirection">
+                <x:Arguments>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="OrdinalDirection" x:FactoryMethod="OrdinalDirection">
+                <x:Arguments>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Department" x:FactoryMethod="Department">
+                <x:Arguments>
+                    <x:Int32>3</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Price" x:FactoryMethod="Price">
+                <x:Arguments>
+                    <x:Decimal>1</x:Decimal>
+                    <x:Decimal>1000</x:Decimal>
+                    <x:Int32>2</x:Int32>
+                    <x:String>
+                        $
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Categories" x:FactoryMethod="Categories">
+                <x:Arguments>
+                    <x:Int32>
+                        2
+                    </x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="CompanyName" x:FactoryMethod="CompanyName">
+                <x:Arguments>
+                    <x:Int32>
+                        2
+                    </x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="CompanyNameString" x:FactoryMethod="CompanyName">
+                <x:Arguments>
+                    <x:String>
+                    {{name.lastName}} {{company.companySuffix}}
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+             <elem:BogusGenerator x:Key="Past" x:FactoryMethod="Past">
+                <x:Arguments>
+                    <x:Int32>1</x:Int32>
+                    <x:DateTime>
+                        sys:DateTime.Now
+                    </x:DateTime>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Soon" x:FactoryMethod="Soon">
+                <x:Arguments>
+                    <x:Int32>1</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Future" x:FactoryMethod="Future">
+                <x:Arguments>
+                    <x:Int32>1</x:Int32>
+                    <x:DateTime>
+                        sys:DateTime.Now
+                    </x:DateTime>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Between" x:FactoryMethod="Between">
+                <x:Arguments>
+                    <x:DateTime>
+                        sys:DateTime.Now
+                    </x:DateTime>
+                    <x:DateTime>
+                        sys:DateTime.Now
+                    </x:DateTime>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Recent" x:FactoryMethod="Recent">
+                <x:Arguments>
+                    <x:Int32>1</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Timespan" x:FactoryMethod="Timespan">
+                <x:Arguments>
+                    <x:TimeSpan>
+                        sys:DateTime.TimeOfDay
+                    </x:TimeSpan>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Month" x:FactoryMethod="Month">
+                <x:Arguments>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Weekday" x:FactoryMethod="Weekday">
+                <x:Arguments>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Account" x:FactoryMethod="Account">
+                <x:Arguments>
+                    <x:Int32>8</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="AccountName" x:FactoryMethod="AccountName">
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Amount" x:FactoryMethod="Amount">
+                <x:Arguments>
+                    <x:Decimal>0</x:Decimal>
+                    <x:Decimal>1000</x:Decimal>
+                    <x:Int32>2</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="TransactionType" x:FactoryMethod="TransactionType">
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Currency" x:FactoryMethod="Currency">
+                <x:Arguments>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+             <elem:BogusGenerator x:Key="Iban" x:FactoryMethod="Iban">
+                <x:Arguments>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+             <elem:BogusGenerator x:Key="Image" x:FactoryMethod="Image">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Abstract" x:FactoryMethod="Abstract">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Animals" x:FactoryMethod="Animals">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Business" x:FactoryMethod="Business">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Cats" x:FactoryMethod="Cats">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="City" x:FactoryMethod="City">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Food" x:FactoryMethod="Food">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Nightlife" x:FactoryMethod="Nightlife">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Fashion" x:FactoryMethod="Fashion">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="People" x:FactoryMethod="People">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Nature" x:FactoryMethod="Nature">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Sports" x:FactoryMethod="Sports">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Technics" x:FactoryMethod="Technics">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Transport" x:FactoryMethod="Transport">
+                <x:Arguments>
+                    <x:Int32>640</x:Int32>
+                    <x:Int32>480</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:Boolean>False</x:Boolean>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="DataUri" x:FactoryMethod="DataUri">
+                <x:Arguments>
+                    <x:Int32>
+                        1
+                    </x:Int32>
+                    <x:Int32>
+                        1
+                    </x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Email" x:FactoryMethod="Email">
+                <x:Arguments>
+                    <x:String>
+                        arun
+                    </x:String>
+                    <x:String>
+                        balakris
+                    </x:String>
+                    <x:String>
+                        yahoo
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="ExampleEmail" x:FactoryMethod="ExampleEmail">
+                <x:Arguments>
+                    <x:String>
+                        arun
+                    </x:String>
+                    <x:String>
+                        abala
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="UserName" x:FactoryMethod="UserName">
+                <x:Arguments>
+                    <x:String>
+                        arun
+                    </x:String>
+                    <x:String>
+                        balakrish
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Mac" x:FactoryMethod="Mac">
+                <x:Arguments>
+                    <x:String>:</x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Password" x:FactoryMethod="Password">
+                <x:Arguments>
+                    <x:Int32>10</x:Int32>
+                    <x:Boolean>False</x:Boolean>
+                    <x:String>\w</x:String>
+                    <x:String>
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+             <elem:BogusGenerator x:Key="UrlWithPath" x:FactoryMethod="UrlWithPath">
+                <x:Arguments>
+                    <x:String>
+                        tcp
+                    </x:String>
+                    <x:String>
+                        statts
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+             <elem:BogusGenerator x:Key="Words" x:FactoryMethod="Words">
+                <x:Arguments>
+                    <x:Int32>3</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Letter" x:FactoryMethod="Letter">
+                <x:Arguments>
+                    <x:Int32>1</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Sentence" x:FactoryMethod="Sentence">
+                <x:Arguments>
+                    <x:Int32>
+                        1
+                    </x:Int32>
+                    <x:Int32>1</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Sentences" x:FactoryMethod="Sentences">
+                <x:Arguments>
+                    <x:Int32>
+                        1
+                    </x:Int32>
+                    <x:String>
+                        :
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Paragraph" x:FactoryMethod="Paragraph">
+                <x:Arguments>
+                    <x:Int32>3</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Paragraphs" x:FactoryMethod="Paragraphs">
+                <x:Arguments>
+                    <x:Int32>3</x:Int32>
+                    <x:String>
+                        :
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Paragraphs" x:FactoryMethod="Paragraphs">
+                <x:Arguments>
+                    <x:Int32>
+                        1
+                    </x:Int32>
+                    <x:Int32>
+                        1
+                    </x:Int32>
+                    <x:String>
+                        :
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+              <elem:BogusGenerator x:Key="Lines" x:FactoryMethod="Lines">
+                <x:Arguments>
+                    <x:Int32>
+                        1
+                    </x:Int32>
+                    <x:String>
+                        :
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Slug" x:FactoryMethod="Slug">
+                <x:Arguments>
+                    <x:Int32>3</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="FirstName" x:FactoryMethod="FirstName">
+                <x:Arguments>
+                    <x:String>
+                        Male
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="LastName" x:FactoryMethod="LastName">
+                <x:Arguments>
+                    <x:String>
+                        Male
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="FullName" x:FactoryMethod="FullName">
+                <x:Arguments>
+                    <x:String>
+                        Male
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Prefix" x:FactoryMethod="Prefix">
+                <x:Arguments>
+                    <x:String>
+                        Male
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+              <elem:BogusGenerator x:Key="FindName" x:FactoryMethod="FindName">
+                <x:Arguments>
+                    <x:String>
+                    </x:String>
+                    <x:String>
+                    </x:String>
+                    <x:Boolean>
+                    False
+                    </x:Boolean>
+                    <x:Boolean>
+                        False
+                    </x:Boolean>
+                    <x:String>
+                        Male
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+             <elem:BogusGenerator x:Key="PhoneNumber" x:FactoryMethod="PhoneNumber">
+                <x:Arguments>
+                    <x:String>
+                        ## ### ####
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="PhoneNumberFormat" x:FactoryMethod="PhoneNumberFormat">
+                <x:Arguments>
+                    <x:Int32>0</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Review" x:FactoryMethod="Review">
+                <x:Arguments>
+                    <x:String>product</x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="Reviews" x:FactoryMethod="Reviews">
+                <x:Arguments>
+                    <x:String>product</x:String>
+                    <x:Int32>2</x:Int32>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            <elem:BogusGenerator x:Key="FileName" x:FactoryMethod="FileName">
+                <x:Arguments>
+                    <x:String>
+                        .txt
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+             <elem:BogusGenerator x:Key="CommonFileName" x:FactoryMethod="CommonFileName">
+                <x:Arguments>
+                    <x:String>
+                        .exe
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+             <elem:BogusGenerator x:Key="FileExt" x:FactoryMethod="FileExt">
+                <x:Arguments>
+                    <x:String>
+                        .txt
+                    </x:String>
+                </x:Arguments>
+            </elem:BogusGenerator>
+            -->
+
+            
+</ResourceDictionary>
