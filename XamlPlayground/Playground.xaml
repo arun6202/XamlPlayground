@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
     <FlexLayout AlignItems="Stretch" Direction="Column" Padding="10,20,0,0">
-        
+
+        <Label Text="d"></Label>
 
     </FlexLayout>
 </ContentPage>
