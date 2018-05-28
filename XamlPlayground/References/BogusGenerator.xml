@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+        <StackLayout Padding="0,30,0,0">
+            <Label Text="{StaticResource Key=ZipCode}">
+            </Label>
+            <Label Text="{StaticResource Key=City}">
+            </Label>
+            <Label Text="{StaticResource Key=StreetAddress}">
+            </Label>
+            <Label Text="{StaticResource Key=CityPrefix}">
+            </Label>
+            <Label Text="{StaticResource Key=CitySuffix}">
+            </Label>
+            <Label Text="{StaticResource Key=StreetName}">
+            </Label>
+            <Label Text="{StaticResource Key=BuildingNumber}">
+            </Label>
+            <Label Text="{StaticResource Key=StreetSuffix}">
+            </Label>
+            <Label Text="{StaticResource Key=SecondaryAddress}">
+            </Label>
+            <Label Text="{StaticResource Key=County}">
+            </Label>
+            <Label Text="{StaticResource Key=Country}">
+            </Label>
+            <Label Text="{StaticResource Key=FullAddress}">
+            </Label>
+            <Label Text="{StaticResource Key=CountryCode}">
+            </Label>
+            <Label Text="{StaticResource Key=State}">
+            </Label>
+            <Label Text="{StaticResource Key=StateAbbr}">
+            </Label>
+            <Label Text="{StaticResource Key=Latitude}">
+            </Label>
+            <Label Text="{StaticResource Key=Longitude}">
+            </Label>
+            <Label Text="{StaticResource Key=Direction}">
+            </Label>
+            <Label Text="{StaticResource Key=CardinalDirection}">
+            </Label>
+            <Label Text="{StaticResource Key=OrdinalDirection}">
+            </Label>
+            <Label Text="{StaticResource Key=Department}">
+            </Label>
+            <Label Text="{StaticResource Key=Price}">
+            </Label>
+            <Label Text="{StaticResource Key=Categories}">
+            </Label>
+            <Label Text="{StaticResource Key=ProductName}">
+            </Label>
+            <Label Text="{StaticResource Key=Color}">
+            </Label>
+            <Label Text="{StaticResource Key=Product}">
+            </Label>
+            <Label Text="{StaticResource Key=ProductAdjective}">
+            </Label>
+            <Label Text="{StaticResource Key=ProductMaterial}">
+            </Label>
+            <Label Text="{StaticResource Key=CompanySuffix}">
+            </Label>
+            <Label Text="{StaticResource Key=CompanyName}">
+            </Label>
+            <Label Text="{StaticResource Key=CompanyName}">
+            </Label>
+            <Label Text="{StaticResource Key=CatchPhrase}">
+            </Label>
+            <Label Text="{StaticResource Key=Bs}">
+            </Label>
+            <Label Text="{StaticResource Key=Column}">
+            </Label>
+            <Label Text="{StaticResource Key=Type}">
+            </Label>
+            <Label Text="{StaticResource Key=Collation}">
+            </Label>
+            <Label Text="{StaticResource Key=Engine}">
+            </Label>
+            <Label Text="{StaticResource Key=Past}">
+            </Label>
+            <Label Text="{StaticResource Key=Soon}">
+            </Label>
+            <Label Text="{StaticResource Key=Future}">
+            </Label>
+            <Label Text="{StaticResource Key=Between}">
+            </Label>
+            <Label Text="{StaticResource Key=Recent}">
+            </Label>
+            <Label Text="{StaticResource Key=Timespan}">
+            </Label>
+            <Label Text="{StaticResource Key=Month}">
+            </Label>
+            <Label Text="{StaticResource Key=Weekday}">
+            </Label>
+            <Label Text="{StaticResource Key=Account}">
+            </Label>
+            <Label Text="{StaticResource Key=AccountName}">
+            </Label>
+            <Label Text="{StaticResource Key=Amount}">
+            </Label>
+            <Label Text="{StaticResource Key=TransactionType}">
+            </Label>
+            <Label Text="{StaticResource Key=Currency}">
+            </Label>
+            <Label Text="{StaticResource Key=CreditCardNumber}">
+            </Label>
+            <Label Text="{StaticResource Key=CreditCardCvv}">
+            </Label>
+            <Label Text="{StaticResource Key=BitcoinAddress}">
+            </Label>
+            <Label Text="{StaticResource Key=EthereumAddress}">
+            </Label>
+            <Label Text="{StaticResource Key=RoutingNumber}">
+            </Label>
+            <Label Text="{StaticResource Key=Bic}">
+            </Label>
+            <Label Text="{StaticResource Key=Iban}">
+            </Label>
+            <Label Text="{StaticResource Key=Abbreviation}">
+            </Label>
+            <Label Text="{StaticResource Key=Adjective}">
+            </Label>
+            <Label Text="{StaticResource Key=Noun}">
+            </Label>
+            <Label Text="{StaticResource Key=Verb}">
+            </Label>
+            <Label Text="{StaticResource Key=IngVerb}">
+            </Label>
+            <Label Text="{StaticResource Key=Phrase}">
+            </Label>
+            <Label Text="{StaticResource Key=Image}">
+            </Label>
+            <Label Text="{StaticResource Key=Abstract}">
+            </Label>
+            <Label Text="{StaticResource Key=Animals}">
+            </Label>
+            <Label Text="{StaticResource Key=Business}">
+            </Label>
+            <Label Text="{StaticResource Key=Cats}">
+            </Label>
+            <Label Text="{StaticResource Key=City}">
+            </Label>
+            <Label Text="{StaticResource Key=Food}">
+            </Label>
+            <Label Text="{StaticResource Key=Nightlife}">
+            </Label>
+            <Label Text="{StaticResource Key=Fashion}">
+            </Label>
+            <Label Text="{StaticResource Key=People}">
+            </Label>
+            <Label Text="{StaticResource Key=Nature}">
+            </Label>
+            <Label Text="{StaticResource Key=Sports}">
+            </Label>
+            <Label Text="{StaticResource Key=Technics}">
+            </Label>
+            <Label Text="{StaticResource Key=Transport}">
+            </Label>
+            <Label Text="{StaticResource Key=DataUri}">
+            </Label>
+            <Label Text="{StaticResource Key=Avatar}">
+            </Label>
+            <Label Text="{StaticResource Key=Email}">
+            </Label>
+            <Label Text="{StaticResource Key=ExampleEmail}">
+            </Label>
+            <Label Text="{StaticResource Key=UserName}">
+            </Label>
+            <Label Text="{StaticResource Key=DomainName}">
+            </Label>
+            <Label Text="{StaticResource Key=DomainWord}">
+            </Label>
+            <Label Text="{StaticResource Key=DomainSuffix}">
+            </Label>
+            <Label Text="{StaticResource Key=Ip}">
+            </Label>
+            <Label Text="{StaticResource Key=Ipv6}">
+            </Label>
+            <Label Text="{StaticResource Key=UserAgent}">
+            </Label>
+            <Label Text="{StaticResource Key=Mac}">
+            </Label>
+            <Label Text="{StaticResource Key=Password}">
+            </Label>
+            <Label Text="{StaticResource Key=Color}">
+            </Label>
+            <Label Text="{StaticResource Key=Protocol}">
+            </Label>
+            <Label Text="{StaticResource Key=Url}">
+            </Label>
+            <Label Text="{StaticResource Key=UrlWithPath}">
+            </Label>
+            <Label Text="{StaticResource Key=Word}">
+            </Label>
+            <Label Text="{StaticResource Key=Words}">
+            </Label>
+            <Label Text="{StaticResource Key=Letter}">
+            </Label>
+            <Label Text="{StaticResource Key=Sentence}">
+            </Label>
+            <Label Text="{StaticResource Key=Sentences}">
+            </Label>
+            <Label Text="{StaticResource Key=Paragraph}">
+            </Label>
+            <Label Text="{StaticResource Key=Paragraphs}">
+            </Label>
+            <Label Text="{StaticResource Key=Paragraphs}">
+            </Label>
+            <Label Text="{StaticResource Key=Text}">
+            </Label>
+            <Label Text="{StaticResource Key=Lines}">
+            </Label>
+            <Label Text="{StaticResource Key=Slug}">
+            </Label>
+            <Label Text="{StaticResource Key=FirstName}">
+            </Label>
+            <Label Text="{StaticResource Key=LastName}">
+            </Label>
+            <Label Text="{StaticResource Key=FullName}">
+            </Label>
+            <Label Text="{StaticResource Key=Prefix}">
+            </Label>
+            <Label Text="{StaticResource Key=Suffix}">
+            </Label>
+            <Label Text="{StaticResource Key=FindName}">
+            </Label>
+            <Label Text="{StaticResource Key=JobTitle}">
+            </Label>
+            <Label Text="{StaticResource Key=JobDescriptor}">
+            </Label>
+            <Label Text="{StaticResource Key=JobArea}">
+            </Label>
+            <Label Text="{StaticResource Key=JobType}">
+            </Label>
+            <Label Text="{StaticResource Key=PhoneNumber}">
+            </Label>
+            <Label Text="{StaticResource Key=PhoneNumberFormat}">
+            </Label>
+            <Label Text="{StaticResource Key=Review}">
+            </Label>
+            <Label Text="{StaticResource Key=Reviews}">
+            </Label>
+            <Label Text="{StaticResource Key=FileName}">
+            </Label>
+            <Label Text="{StaticResource Key=DirectoryPath}">
+            </Label>
+            <Label Text="{StaticResource Key=FilePath}">
+            </Label>
+            <Label Text="{StaticResource Key=CommonFileName}">
+            </Label>
+            <Label Text="{StaticResource Key=MimeType}">
+            </Label>
+            <Label Text="{StaticResource Key=CommonFileType}">
+            </Label>
+            <Label Text="{StaticResource Key=CommonFileExt}">
+            </Label>
+            <Label Text="{StaticResource Key=FileType}">
+            </Label>
+            <Label Text="{StaticResource Key=FileExt}">
+            </Label>
+            <Label Text="{StaticResource Key=Semver}">
+            </Label>
+            <Label Text="{StaticResource Key=Version}">
+            </Label>
+            <Label Text="{StaticResource Key=Exception}">
+            </Label>
+            <Label Text="{StaticResource Key=AndroidId}">
+            </Label>
+            <Label Text="{StaticResource Key=ApplePushToken}">
+            </Label>
+            <Label Text="{StaticResource Key=BlackBerryPin}">
+            </Label>
+        </StackLayout>
