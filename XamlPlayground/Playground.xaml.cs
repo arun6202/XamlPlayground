@@ -17,12 +17,13 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
                 Content = Content,
                 PreserveSession = true,
                 SuppressAllBackGroundColor = false,
-				EnableRepeater = false,
+				EnableRepeater = true,
 				EnableRestorationOfUIAttributes = true,
                 EnableTapGestureRecognizers = true,
                 EnableUIAttributesGeneration = false,
-				CompressLayout=false
-
+				CompressLayout=true,
+				Apply=true
+                
             });
 
         }
