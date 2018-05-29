@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage Padding="0,20,0,0" xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
+<ContentPage xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+             ios:Page.UseSafeArea="true"
+             xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" 
+             xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="test">
-            </Label>
-            <Label Text="test">
-            </Label>
-            <Label Text="test">
-            </Label>
-            <Label Text="test">
-            </Label>
-        </StackLayout>
+        <FlexLayout AlignItems="Stretch" Direction="Column"  >
+            <FlexLayout FlexLayout.Grow="1" Direction="Row"  >
+            </FlexLayout>
+             <FlexLayout FlexLayout.Grow="2" Direction="Column"  >
+            </FlexLayout>
+             <FlexLayout FlexLayout.Grow="3" Direction="Row"  >
+            </FlexLayout>
+             <FlexLayout FlexLayout.Grow="4" Direction="Column"  >
+            </FlexLayout>
+             <FlexLayout FlexLayout.Grow="5" Direction="Row"  >
+            </FlexLayout>
+             <FlexLayout FlexLayout.Grow="6" Direction="Column" >
+            </FlexLayout>
+        </FlexLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -19,6 +19,9 @@
     <ProjectReference Include="..\..\UserInterfaceBuilder\UserInterfaceBuilder\UserInterfaceBuilder.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="References\ComponentBuilderOptionsUsage.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
       <DependentUpon>Playground.xaml</DependentUpon>
     </Compile>
@@ -31,5 +34,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Cat.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="References\ComponentBuilderOptionsUsage.cs" />
   </ItemGroup>
 </Project>
