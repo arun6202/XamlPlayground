@@ -15,10 +15,10 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
             ComponentBuilder.Init(new ComponentBuilderOptions
             {
                 Content = Content,
-                PreserveSession = false,
+                PreserveSession = true,
                 SuppressAllBackGroundColor = false,
 				EnableRepeater = false,
-                EnableRestorationOfUIAttributes = false,
+				EnableRestorationOfUIAttributes = true,
                 EnableTapGestureRecognizers = true,
                 EnableUIAttributesGeneration = false,
 				CompressLayout=false
