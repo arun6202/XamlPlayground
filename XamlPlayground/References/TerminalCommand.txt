@@ -1,2 +1,8 @@
 ﻿msbuild /p:Configuration=Clean  /Users/arunbalakrishnan/UserInterfaceBuilder/UserInterfaceBuilderPreserver/UserInterfaceBuilderPreserver.csproj ; msbuild /t:restore   /Users/arunbalakrishnan/UserInterfaceBuilder/UserInterfaceBuilderPreserver/UserInterfaceBuilderPreserver.csproj ; msbuild /p:Configuration=Build  /Users/arunbalakrishnan/UserInterfaceBuilder/UserInterfaceBuilderPreserver/UserInterfaceBuilderPreserver.csproj ;cd "/Users/arunbalakrishnan/UserInterfaceBuilder/UserInterfaceBuilderPreserver";"/usr/local/share/dotnet/dotnet" /Users/arunbalakrishnan/UserInterfaceBuilder/UserInterfaceBuilderPreserver/bin/Build/netcoreapp2.1/UserInterfaceBuilderPreserver.dll;
 
+msbuild /p:Configuration=Clean /verbosity:minimal /Users/arun/UserInterfaceBuilder/UserInterfaceBuilderPreserver/UserInterfaceBuilderPreserver.csproj ; msbuild /t:restore /verbosity:minimal  /Users/arun/UserInterfaceBuilder/UserInterfaceBuilderPreserver/UserInterfaceBuilderPreserver.csproj ; msbuild /p:Configuration=Build /verbosity:minimal /Users/arun/UserInterfaceBuilder/UserInterfaceBuilderPreserver/UserInterfaceBuilderPreserver.csproj ;cd "/Users/arun/UserInterfaceBuilder/UserInterfaceBuilderPreserver";"/usr/local/share/dotnet/dotnet" /Users/arun/UserInterfaceBuilder/UserInterfaceBuilderPreserver/bin/Build/netcoreapp2.1/UserInterfaceBuilderPreserver.dll;
+
+
+https://msdn.microsoft.com/en-us/library/ms164311.aspx
+
+
