@@ -9,7 +9,7 @@
             <FlexLayout Direction="Column" FlexLayout.Grow="1" JustifyContent="Center">
                 <Label Text="w3">
                 </Label>
-                <elem:SVGImage Source="m">
+                <elem:SVGImage Source="xl">
                 </elem:SVGImage>
             </FlexLayout>
         </FlexLayout>
