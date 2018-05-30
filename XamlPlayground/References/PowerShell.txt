@@ -1,0 +1,12 @@
+﻿brew tap caskroom/caskv
+brew cask install powershell
+pwsh
+
+brew update
+brew cask upgrade powershell
+
+
+
+PS> Install-Module -Name Invoke-MsBuild
+https://github.com/deadlydog/Invoke-MsBuild
+

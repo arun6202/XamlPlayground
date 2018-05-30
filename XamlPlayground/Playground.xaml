@@ -3,44 +3,15 @@
     <ContentPage.Content>
         <FlexLayout AlignItems="Stretch" Direction="Column">
             <FlexLayout Direction="Column" FlexLayout.Grow="2" JustifyContent="Center">
-                <BoxView FlexLayout.Grow=".5" />
-                <AbsoluteLayout Margin="10,10,10,5" FlexLayout.Grow="2" FlowDirection="LeftToRight">
-                    <BoxView AbsoluteLayout.LayoutBounds=".05,.6,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                    <BoxView AbsoluteLayout.LayoutBounds=".25,.6,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                </AbsoluteLayout>
-                <AbsoluteLayout FlexLayout.Grow="1.5">
-                    <BoxView AbsoluteLayout.LayoutBounds=".05,.5,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                    <BoxView AbsoluteLayout.LayoutBounds=".25,.5,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                    <BoxView AbsoluteLayout.LayoutBounds=".5,.5,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                    <BoxView AbsoluteLayout.LayoutBounds=".75,.5,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                    <BoxView AbsoluteLayout.LayoutBounds=".05,.99,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                    <BoxView AbsoluteLayout.LayoutBounds=".25,.99,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                    <BoxView AbsoluteLayout.LayoutBounds=".5,.99,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                    <BoxView AbsoluteLayout.LayoutBounds=".75,.99,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                </AbsoluteLayout>
+                <BoxView />
+                <BoxView />
             </FlexLayout>
-            <FlexLayout FlexLayout.Grow="5" Direction="Column">
-                <BoxView Margin="10,10,50,0" FlexLayout.Grow="2">
-                </BoxView>
-                <BoxView Margin="20" FlexLayout.Grow="3">
-                </BoxView>
-                <BoxView Margin="10,10,50,0" FlexLayout.Grow=".5">
-                </BoxView>
-                <BoxView Margin="10,10,50,10" FlexLayout.Grow=".5">
-                </BoxView>
+            <FlexLayout Direction="Column" FlexLayout.Grow="1" JustifyContent="Center">
+                <Label Text="w3">
+                </Label>
+                <elem:SVGImage Source="m">
+                </elem:SVGImage>
             </FlexLayout>
-            <AbsoluteLayout FlexLayout.Grow="1">
-                <BoxView AbsoluteLayout.LayoutBounds=".05,.3,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                <BoxView AbsoluteLayout.LayoutBounds=".25,.3,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                <BoxView AbsoluteLayout.LayoutBounds=".5,.3,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                <BoxView AbsoluteLayout.LayoutBounds=".75,.3,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                <BoxView AbsoluteLayout.LayoutBounds=".95,.3,AutoSize,AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                <BoxView AbsoluteLayout.LayoutBounds=".05,.8,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                <BoxView AbsoluteLayout.LayoutBounds=".25,.8,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                <BoxView AbsoluteLayout.LayoutBounds=".5,.8,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                <BoxView AbsoluteLayout.LayoutBounds=".75,.8,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-                <BoxView AbsoluteLayout.LayoutBounds=".95,.8,40,10" AbsoluteLayout.LayoutFlags="PositionProportional" />
-            </AbsoluteLayout>
         </FlexLayout>
     </ContentPage.Content>
 </ContentPage>
