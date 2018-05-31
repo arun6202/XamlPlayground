@@ -19,7 +19,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 				EnableRepeater = true,
 				EnableRestorationOfUIAttributes = true,
 				EnableTapGestureRecognizers = true,
-				EnableUIAttributesGeneration = false,
+				EnableUIAttributesGeneration = true,
 				CompressLayout = false,
 				Apply = true
 
