@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true" xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
+<ContentPage xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="false" xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
     <ContentPage.Content>
         <FlexLayout AlignItems="Stretch" Direction="Column">
             <FlexLayout Direction="Column" FlexLayout.Grow="2" JustifyContent="Center">
@@ -9,7 +9,13 @@
             <FlexLayout Direction="Column" FlexLayout.Grow="1" JustifyContent="Center">
                 <Label Text="w3">
                 </Label>
-                <elem:SVGImage Source="xxl">
+                <elem:SVGImage Source="s">
+                </elem:SVGImage>
+                <elem:SVGImage Source="m">
+                </elem:SVGImage>
+                 <elem:SVGImage Source="l">
+                </elem:SVGImage>
+                  <elem:SVGImage Source="xl">
                 </elem:SVGImage>
             </FlexLayout>
         </FlexLayout>
