@@ -3,3 +3,4 @@ msbuild /p:Configuration=Build /verbosity:minimal $HOME/UserInterfaceBuilder/Use
 echo :"Time taken to execute: $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
 
 #Open terminal and run this : sh $HOME/XamlPlayground/XamlPlayground/References/postbuild.sh
+

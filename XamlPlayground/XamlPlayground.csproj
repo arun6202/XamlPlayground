@@ -35,8 +35,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Cat.svg" />
+    <None Remove="Preserve.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="References\ComponentBuilderOptionsUsage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Preserve.xml" />
   </ItemGroup>
 </Project>

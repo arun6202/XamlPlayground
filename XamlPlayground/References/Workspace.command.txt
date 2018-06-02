@@ -1,0 +1,7 @@
+﻿
+brew install fswatch
+
+https://www.ostechnix.com/monitor-file-changes-using-fswatch-linux/
+
+
+fswatch -o  $HOME/XamlPlayground/XamlPlayground -e ".*" -i "\\.xaml$"  -0 . | xargs -0 -n 1 -I {} sh $HOME/XamlPlayground/XamlPlayground/References/postbuild.sh
