@@ -2,65 +2,8 @@
 <ContentPage xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true" xmlns:elem="clr-namespace:XamarinFormsStarterKit.UserInterfaceBuilder.UIElements;assembly=UserInterfaceBuilder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Playground">
     <ContentPage.Content>
         <FlexLayout AlignItems="Stretch" Direction="Column">
-            <FlexLayout FlexLayout.Grow="1" Direction="Row" AlignContent="Start">
-                <BoxView Color="Red" Margin="15" FlexLayout.AlignSelf="Center" />
-            </FlexLayout>
-            <FlexLayout FlexLayout.Grow="2" Direction="Column" AlignContent="Stretch">
-                <BoxView Margin="15" FlexLayout.AlignSelf="Center" />
-            </FlexLayout>
-            <FlexLayout FlexLayout.Grow="1" Direction="Column" AlignContent="Stretch">
-                <BoxView Margin="15" FlexLayout.AlignSelf="Center" />
-            </FlexLayout>
-            <FlexLayout FlexLayout.Grow="1" Direction="Column" AlignContent="Stretch">
-                <elem:RepeaterView RepeatCount="5">
-                    <DataTemplate>
-                        <ViewCell>
-                            <FlexLayout Direction="Column">
-                                <Label Text="w9">
-                                </Label>
-                                <Button Text="Toast125">
-                                </Button>
-                            </FlexLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </elem:RepeaterView>
-            </FlexLayout>
-            <Grid FlexLayout.Grow="10">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <FlexLayout Grid.Row="0" Grid.Column="0" JustifyContent="SpaceEvenly" FlexLayout.Grow="1" Direction="Column">
-                    <BoxView FlexLayout.AlignSelf="Center" />
-                    <BoxView FlexLayout.AlignSelf="Center" />
-                    <BoxView FlexLayout.AlignSelf="Center" />
-                </FlexLayout>
-                <FlexLayout Grid.Row="0" Grid.Column="1" JustifyContent="SpaceEvenly" FlexLayout.Grow="1" Direction="Column" AlignContent="Stretch">
-                    <BoxView FlexLayout.AlignSelf="Center" />
-                    <BoxView FlexLayout.AlignSelf="Center" />
-                </FlexLayout>
-                <FlexLayout Grid.Row="1" Grid.Column="0" JustifyContent="SpaceEvenly" FlexLayout.Grow="1" Direction="Column" AlignContent="Stretch">
-                    <elem:SVGImage Source="m">
-                    </elem:SVGImage>
-                    <BoxView FlexLayout.AlignSelf="Center" />
-                    <BoxView FlexLayout.AlignSelf="Center" />
-                    <BoxView FlexLayout.AlignSelf="Center" />
-                </FlexLayout>
-                <FlexLayout Grid.Row="1" Grid.Column="1" JustifyContent="SpaceEvenly" FlexLayout.Grow="1" Direction="Column" AlignContent="Stretch">
-                    <elem:SVGImage Source="m">
-                    </elem:SVGImage>
-                    <Label Text="w55">
-                    </Label>
-                    <Label Text="l3">
-                    </Label>
-                    <Label Text="w5">
-                    </Label>
-                </FlexLayout>
-            </Grid>
+            <Label Text="w5">
+            </Label>
         </FlexLayout>
     </ContentPage.Content>
 </ContentPage>

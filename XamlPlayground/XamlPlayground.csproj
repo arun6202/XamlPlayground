@@ -28,10 +28,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CustomElements\" />
-    <Folder Include="TempElements\" />
-    <Folder Include="UserElements\" />
     <Folder Include="References\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Elements\" />
+    <Folder Include="Elements\CustomElements\" />
+    <Folder Include="Elements\TempElements\" />
+    <Folder Include="Elements\UserElements\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Cat.svg" />
