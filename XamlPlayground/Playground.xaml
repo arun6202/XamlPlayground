@@ -48,16 +48,16 @@
                     </elem:SVGImage>
                     <BoxView FlexLayout.AlignSelf="Center" />
                     <BoxView FlexLayout.AlignSelf="Center" />
-                    <BoxView FlexLayout.AlignSelf="Center"  />
+                    <BoxView FlexLayout.AlignSelf="Center" />
                 </FlexLayout>
                 <FlexLayout Grid.Row="1" Grid.Column="1" JustifyContent="SpaceEvenly" FlexLayout.Grow="1" Direction="Column" AlignContent="Stretch">
                     <elem:SVGImage Source="m">
                     </elem:SVGImage>
                     <Label Text="w55">
                     </Label>
-                    <Label Text="l5">
+                    <Label Text="l3">
                     </Label>
-                     <Label Text="w1">
+                    <Label Text="w5">
                     </Label>
                 </FlexLayout>
             </Grid>

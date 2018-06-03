@@ -5,3 +5,53 @@ https://www.ostechnix.com/monitor-file-changes-using-fswatch-linux/
 
 
 fswatch -o  $HOME/XamlPlayground/XamlPlayground -e ".*" -i "\\.xaml$"  -0 . | xargs -0 -n 1 -I {} sh $HOME/XamlPlayground/XamlPlayground/References/postbuild.sh
+
+
+
+fswatch -o  $HOME/XamlPlayground/XamlPlayground -e ".*" -i "\\.xaml$" -i "\\.cs$"  -0 . | xargs -0 -n 1 -I {} sh $HOME/XamlPlayground/XamlPlayground/References/postbuild.sh
+
+
+
+
+ brew install watchman
+
+
+ watchman watch $HOME/XamlPlayground/XamlPlayground
+
+ watchman -- trigger $HOME/XamlPlayground/XamlPlayground XamlPlayground '*.xaml' -- echo 'test'
+
+  watchman  -o /tmp/log  -- trigger $HOME/XamlPlayground/XamlPlayground XamlPlayground '*.xaml' -- echo 'test'
+
+
+
+ watchman watch $HOME/XamlPlayground/XamlPlayground
+
+
+ watchman -- trigger $HOME/XamlPlayground/XamlPlayground/ buildme '*.xaml' -- $HOME/XamlPlayground/XamlPlayground/References/postbuild.sh
+
+
+
+ ps aux | grep watchman
+
+
+ watchman-make -p '**/*.xaml' '**/*.cs' --run echo "change"
+
+ watchman-make -p $HOME/XamlPlayground/XamlPlayground/*.xaml  $HOME/XamlPlayground/XamlPlayground/*.cs --run  $HOME/XamlPlayground/XamlPlayground/References/postbuild.sh 
+
+ watchman -o $HOME/XamlPlayground/XamlPlayground/References/log
+
+
+
+ watchman-make -p $HOME/XamlPlayground/XamlPlayground/*.xaml  $HOME/XamlPlayground/XamlPlayground/*.cs --run  dummy
+
+ watchman-make --make=$HOME/XamlPlayground/XamlPlayground/References/postbuild.sh -p $HOME/XamlPlayground/XamlPlayground/*.xaml -t execute --logfile $HOME/XamlPlayground/XamlPlayground
+
+ pip install watchdog
+
+
+ easy_install watchdog
+
+brew install libyaml
+
+
+watchmedo shell-command --patterns="*.xaml;*.cs"  --recursive --command= 'sh $HOME/XamlPlayground/XamlPlayground/References/postbuild.sh'

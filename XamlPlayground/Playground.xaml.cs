@@ -25,6 +25,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 
 			});
 
+
 		}
 
 		public Playground(ComponentBuilderOptions options)
