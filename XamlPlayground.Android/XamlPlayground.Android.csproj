@@ -3614,6 +3614,27 @@
     <Reference Include="XamlPlayground">
       <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
     </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
+    <Reference Include="XamlPlayground">
+      <HintPath>..\XamlPlayground\bin\Debug\netstandard2.0\XamlPlayground.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design">
