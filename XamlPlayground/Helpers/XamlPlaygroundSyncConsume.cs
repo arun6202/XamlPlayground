@@ -19,17 +19,17 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Helpers
 			_connection.On<string, XamlPayload>("XamlPlaygroundSync", async (name, message) =>
 			{
 
-				if (XamlPayload.XAML == null)
-				{
-					await LiveXamlHelper.PreviewXaml(message.XAML,App.ContentPageSync);
-				}
+				//if (XamlPayload.XAML == null)
+				//{
+				//	await LiveXamlHelper.PreviewXaml(message.XAML,App.ContentPageSync);
+				//}
 
-				bool areXamlSame = XamlPayload.CompareTo(message) == 0;
-				if (!areXamlSame)
-				{
-					XamlPayload = message;
-					await LiveXamlHelper.PreviewXaml(message.XAML, App.ContentPageSync);
-				}
+				//bool areXamlSame = XamlPayload.CompareTo(message) == 0;
+				//if (!areXamlSame)
+				//{
+				//	XamlPayload = message;
+				//	await LiveXamlHelper.PreviewXaml(message.XAML, App.ContentPageSync);
+				//}
 			});
 
 		}

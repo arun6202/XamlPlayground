@@ -25,6 +25,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="References\ComponentBuilderOptionsUsage.cs" />
+    <Compile Remove="Models\XamlPayloadLocal.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
