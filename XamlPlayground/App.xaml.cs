@@ -300,7 +300,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
         
 		protected override async void OnStart()
 		{
-			await XamlPlaygroundSyncConsume.Sync();
+			//await XamlPlaygroundSyncConsume.Sync();
 		}
 
 		protected override void OnSleep()
