@@ -43,11 +43,13 @@
   <ItemGroup>
     <None Remove="Cat.svg" />
     <None Remove="Preserve.xml" />
+    <None Remove="PreserveXaml.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="References\ComponentBuilderOptionsUsage.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Preserve.xml" />
+    <EmbeddedResource Include="PreserveXaml.xml" />
   </ItemGroup>
 </Project>

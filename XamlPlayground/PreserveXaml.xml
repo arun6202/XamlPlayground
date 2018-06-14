@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true" x:Class="XamarinFormsStarterKit.LayoutGallery.wwayne_react_native_nba_app.XAML.DashBoardView" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+  <ContentPage.Content>
+    <FlexLayout Direction="Column" BackgroundColor="#EE82EE">
+      <BoxView BackgroundColor="#B0E0E6"></BoxView>
+      <BoxView BackgroundColor="#ADFF2F"></BoxView>
+      <BoxView BackgroundColor="#483D8B"></BoxView>
+      <BoxView BackgroundColor="#8FBC8F"></BoxView>
+      <BoxView BackgroundColor="#FF8C00"></BoxView>
+      <BoxView BackgroundColor="#D2B48C"></BoxView>
+      <BoxView BackgroundColor="#FF6347"></BoxView>
+      <BoxView BackgroundColor="#DA70D6"></BoxView>
+      <BoxView BackgroundColor="#F5F5F5"></BoxView>
+      <BoxView BackgroundColor="#7FFFD4"></BoxView>
+    </FlexLayout>
+  </ContentPage.Content>
+</ContentPage>

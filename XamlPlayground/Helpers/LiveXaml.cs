@@ -33,7 +33,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Helpers
 				try
 				{
 					Debug.WriteLine("Loading XAML...");
-					LoadXaml(page, xaml);
+                    LoadXaml(page, xaml);
 					page.ForceLayout(); // Update
 						taskCompletionSource.SetResult(page);
 				}
@@ -85,6 +85,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground.Helpers
 			try
 			{
 				load.Invoke(null, new object[] { view, xaml });
+ 
 			}
 			catch (TargetInvocationException exception)
 			{

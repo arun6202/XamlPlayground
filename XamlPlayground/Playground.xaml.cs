@@ -8,27 +8,31 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 	public partial class Playground : ContentPage
 	{
 		public Playground()
-		{
-			InitializeComponent();
+        {
+            InitializeComponent();
 
-			ComponentBuilder.Init(new ComponentBuilderOptions
-			{
-				Content = Content,
-				PreserveSession = true,
-				SuppressAllBackGroundColor = false,
-				EnableRepeater = true,
-				EnableRestorationOfUIAttributes = true,
-				EnableTapGestureRecognizers = true,
-				EnableUIAttributesGeneration = true,
-				CompressLayout = false,
-				Apply = true
+            //Init();
 
-			});
+        }
 
+        public  void Init(string callee="local")
+        {
+            ComponentBuilder.Init(new ComponentBuilderOptions
+            {
+                Content = Content,
+                PreserveSession = true,
+                SuppressAllBackGroundColor = false,
+                EnableRepeater = true,
+                EnableRestorationOfUIAttributes = true,
+                EnableTapGestureRecognizers = true,
+                EnableUIAttributesGeneration = true,
+                CompressLayout = false,
+                Apply = true
 
-		}
+            });
+        }
 
-		public Playground(ComponentBuilderOptions options)
+        public Playground(ComponentBuilderOptions options)
 		{
 			InitializeComponent();
 

@@ -31,40 +31,38 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 
             ContentPageSync = playground;
 
+            IntializeXamlSync();
+
         }
 
-
-        protected override async void OnStart()
+        private static void IntializeXamlSync()
         {
-
-            await IntializeXamlSync();
-            //to do when signal r issue is solved please use that::
-            //await XamlPlaygroundSyncConsume.Sync();
+            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+           {
+               Task.Factory.StartNew(async () => await RunXAMLChanges());
+               return true;
+           });
         }
 
-        private async Task IntializeXamlSync()
+        private static async Task RunXAMLChanges()
         {
-            while (true)
+            using (var client = new HttpClient())
             {
+                HttpResponseMessage response = await client.GetAsync(UriString);
 
-                using (var client = new HttpClient())
+                response.EnsureSuccessStatusCode();
+
+                using (HttpContent content = response.Content)
                 {
-                    HttpResponseMessage response = await client.GetAsync(UriString);
+                    var responseBody = await response.Content.ReadAsStringAsync();
+                    var message = JsonConvert.DeserializeObject<XamlPayload>(responseBody, JsonSerializerSettingsConverter.Settings);
 
-                    response.EnsureSuccessStatusCode();
-
-                    using (HttpContent content = response.Content)
+                    if (!string.IsNullOrEmpty(message.XAML) || !string.IsNullOrEmpty(message.PreserveXML))
                     {
-                        var responseBody = await response.Content.ReadAsStringAsync();
-                        var message = JsonConvert.DeserializeObject<XamlPayload>(responseBody, JsonSerializerSettingsConverter.Settings);
 
-                        if (string.IsNullOrEmpty(message.XAML) || string.IsNullOrEmpty(message.PreserveXML))
-                        {
-                            return;
-
-                        }
                         if (XamlPayload.XAML == null)
                         {
+                            XamlPayload = message;
                             await LiveXamlHelper.PreviewXaml(message.XAML, ContentPageSync);
                         }
 
@@ -79,10 +77,18 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 
                 }
 
-                await Task.Delay(TimeSpan.FromSeconds(10));
-
             }
         }
+
+        protected override void OnStart()
+        {
+
+            // await IntializeXamlSync();
+            //to do when signal r issue is solved please use that::
+            //await XamlPlaygroundSyncConsume.Sync();
+        }
+
+
 
         protected override void OnSleep()
         {
