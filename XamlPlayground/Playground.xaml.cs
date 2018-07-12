@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 {
-	public partial class Playground : ContentPage
-	{
-		public Playground()
+    public partial class Playground : ContentPage
+    {
+        public Playground()
         {
             InitializeComponent();
 
@@ -15,7 +15,7 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
 
         }
 
-        public  void Init(string callee="local")
+        public void Init(string callee = "local")
         {
             ComponentBuilder.Init(new ComponentBuilderOptions
             {
@@ -33,13 +33,13 @@ namespace XamarinFormsStarterKit.UserInterfaceBuilder.XamlPlayground
         }
 
         public Playground(ComponentBuilderOptions options)
-		{
-			InitializeComponent();
+        {
+            InitializeComponent();
 
-			options.Content = Content;
+            options.Content = Content;
 
-			ComponentBuilder.Init(options);
+            ComponentBuilder.Init(options);
 
-		}
-	}
+        }
+    }
 }
